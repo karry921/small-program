@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>100-1000以内的水仙花数</title>
+		<script type="text/javascript">
+			var a,b,c;
+			for(var i=100;i<1000;i++){
+				a=i%10;          //个位数字
+				b=(i/10)%10;     //余数为小数，再用parseInt()方法转换为整数
+				b=parseInt(b);
+				c=i/100;          
+				c=parseInt(c);    //结果为小数,再用parseInt()方法转换为整数
+				if(i==a*a*a+b*b*b+c*c*c){
+					document.writeln(i+"是水仙花数"+"</br>")
+				}
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

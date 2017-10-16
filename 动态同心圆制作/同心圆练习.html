@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				/*box-sizing: border-box;*//*让盒子模型变成边框盒子模型，所给宽高为内容加上内边距加上border*/
+			}
+			.article{
+				width:230px;
+				height: 330px;
+				margin:0 auto;
+				background-color: #343434;
+			}
+			.font{
+				color:white;
+				width: 230px;
+				height: 100px;
+				text-align: center;
+				margin-top: -70px;
+			}
+			.circle{
+				width: 230px;
+				height:230px;
+				padding:35px;
+			}
+			.circle .outer{
+				border:5px solid #9a9a9a;
+				border-radius:50%;
+				width: 150px;
+				height:150px;
+				animation-name: outer;
+				animation-duration: 9s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+			}
+			.circle .outer .inner{
+				border:15px solid white;
+				border-radius:50%;
+		    	width: 100px;
+		    	height:100px;
+		    	margin:10px auto;
+		    	animation-name:inner;
+				animation-duration: 9s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+			}
+			
+			@keyframes outer{
+				20%{
+					transform: scale(1.2);
+				}
+				40%{
+					transform: scale(1);
+				}
+			}
+			@keyframes inner{
+				20%{
+					transform: scale(0.8);
+				}
+				40%{
+					transform: scale(1);
+				}
+				60%{
+					transform: scale(0.8);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="article">
+			<div class="circle">
+				<div class="outer">
+					<div class="inner"></div>
+				</div>
+			</div>
+			<div class="font">Hello!</div>
+		</div>
+	</body>
+</html>
