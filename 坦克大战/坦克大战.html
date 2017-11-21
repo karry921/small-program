@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>坦克大战练习</title>
+		<script type="text/javascript" src="js/坦克大战练习.js"></script>
+		
+		<style type="text/css">
+			#btns{
+				width: 350px;
+				margin: 0 auto;
+			}
+			#btns button{
+				margin-left: 12px;
+			}
+			
+			#photo{
+				width: 700px;
+				height: 450px;
+				margin: 30px auto;
+				border: 1px solid black;
+			}
+			#photo img{
+				position: absolute;
+				float: left;
+			}
+			#photo #two{
+				margin-top: 70px;
+			}
+					
+		</style>
+		
+		
+		
+		<!--坦克大战之手动移动
+			给第一个按钮绑定事件，每单击一次，居左距离增加20px;
+		-->
+		
+		<!--坦克大战之发射
+			1.给第二个按钮绑定事件,设置倒计时，即time初值设置为3；
+			2.利用超时调用函数，var id=setInterval(function(){},50);
+			3.判断，当时间小于等于0时，清除超时调用；
+			4.利用间歇调用函数，设置倒计时结束时居左的距离；
+		-->
+		
+		<!--坦克大战之赛跑
+			1.给第三个按钮绑定事件，利用超时调用函数；
+			2.设置两个随机数，然后给两个坦克图片设置随机的居左距离，使其具有不同的移动速度；
+			3.判断：当两个坦克中至少有一个居左距离大于div宽度时，清除超时调用；
+			4.判断：当第一个坦克居左大于div宽度时，弹出警告框提示坦克0获胜，否则坦克1获胜	-->
+			
+			
+		<!--坦克大战之自动移动
+			1.给第四个按钮绑定事件，利用超时调用函数；
+			2.居左距离以10px递增；
+			3.判断：当居左距离大于div宽度时，坦克0的图片更改为项下的图片，以此类推
+		-->
+	</head>
+	<body>
+		<div id="btns">
+			<button>手动移动</button>
+			<button>发射</button>
+			<button>赛跑</button>
+			<button>自动移动</button>
+			<span></span>
+		</div>
+		
+		<div id="photo">
+			<img src="images/tanke_right.jpg" id="one">
+			<img src="images/tanke_right.jpg" id="two">
+		</div>
+	</body>
+</html>

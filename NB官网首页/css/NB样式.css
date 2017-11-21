@@ -1,0 +1,244 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*header头部样式*/
+.header{
+	height:56px;
+	background-color:#232323;
+	margin:0 auto;
+	width:1349px;
+	}
+	
+/*红色NB图片左浮动*/
+.header .one{
+	float:left;
+	height:56px;	
+}	
+
+/*男女儿童跑鞋顾问整个div标签*/
+.header .two{
+	float:left;
+	height:56px;	
+
+}
+/*男女儿童以及鞋的图片*/
+.header .two ul li{
+	float:left;	
+	list-style: none;
+}
+/*跑鞋顾问*/
+.header .two a{
+	text-decoration: none;
+    color:#e7e7e7;
+    float:left;	
+}
+
+.header .two .oneli/*男*/{
+	margin-left:50px;
+}
+.header .two .twoli/*女*/{
+	margin-left:40px;
+}
+.header .two .threeli/*儿童*/{
+	margin-left:40px;
+}
+
+.header .two ul li .xieImg{
+	margin-top:21px;
+	margin-left:45px;
+}
+
+.header .two ul li a/*跑鞋顾问*/{
+	margin-top:17px;
+	margin-left:40px;
+}
+
+/*搜索框的整个div标签*/
+.header .three{
+	margin-left:850px;
+	height:56px;	
+}
+/*input搜索框*/
+.header .ipt{
+	padding-top:10px;
+	width: 255px;
+
+}
+/*搜索框的放大镜图片*/
+.header .search{
+    margin-left:220px;
+    margin-top: -26px;
+    width:22px;
+} 
+ 
+/*定位图标*/
+.header .four img{
+	float:left;
+	margin-top:-29px;
+	margin-left:390px;
+}
+
+.header .four p{
+	display:inline-block;
+	float:left;
+	color:#e7e7e7;
+	margin-top:-30px;
+	margin-left:420px;
+}
+
+.logo{
+	margin:0 auto;
+	width:1349px;
+}
+/*关注微博微信*/
+.font{
+	background-color:#ffffff;
+	height:48px;
+	margin:0 auto;
+	width:1349px;
+}
+.font .center p{
+	margin-top:10px;
+	margin-left:551px;
+	float:left;
+}
+.font .center .weibo{
+	float:left;
+	margin-left:33px;
+	margin-top:10px;	
+}
+.font .center .weixin{
+	float:left;
+	margin-left:20px;
+	margin-top:10px;	
+}
+
+/*article主体样式*/
+.article{
+	height:1438px;
+	margin:0 auto;
+	width:1349px;
+	background-color:#ededed;
+}
+/*7张图片的答div*/
+.article .center{
+	width:1071px;
+	height:1400px;
+	margin:0 auto;
+}
+/*每一张图片的小div*/
+.article .center div{
+	float:left;
+	margin-right:12px;
+	margin-bottom:8px;
+	}
+
+/*footer脚部样式*/
+.footer{
+	height:268px;
+	margin:0 auto;
+	width:1349px;
+}
+.footer address ul li{
+	list-style: none;
+	font-family:微软雅黑;
+}
+.footer address ul{
+	float:left;
+}
+p{
+	text-align:left;
+}
+.footer address{
+	font-size:13px;
+	height:103px;
+	width:802px;
+	margin-top:68px;
+	margin-left:274px;
+}
+
+.footer address .pinpai{
+	float:left;
+	width:140px;
+	height:65px;
+	font-style: normal;
+}
+.footer address .goumai{
+	float:left;
+	width:104px;
+	height:90px;
+	margin-left:100px;
+	font-style: normal;
+}
+.footer address .shouhou{
+	float:left;
+	width:214px;
+	height:103px;
+	margin-left:70px;
+	font-style: normal;
+}
+.footer address .shouhou li{
+	float:left;
+}
+.footer address .shouhou li img{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+.footer address .shouhou li p{
+	float:left;
+	color:red;
+	font-size:13px;
+	margin-top:6px;
+	margin-left:12px;
+}
+.footer address .shouhou table tr td{
+	border:1px solid red;
+	color:red;
+	width: 33px;
+}
+.footer address .lianxi{
+	float:left;
+	width:60px;
+	height:38px;
+	margin-left:50px;
+	font-style: normal;
+}
+.footer .last .aaa{	
+	float:left;
+	}
+
+.footer .last .bbb{
+	margin-left:274px;
+    float:left;
+}
+.footer .last img{
+	float:left;
+	margin-top:-24px;
+	margin-left:113px;	
+}
+.footer .last .ccc{
+	float:left;
+	margin-left:512px;
+	}
+
+.footer .last .ddd{
+	float:left;
+	margin-left:10px;
+	margin-top:-20px;
+	}
+	
+.footer .SH{
+	width: 45px;
+	height:10px;
+	color:black;
+	font-size:11px;
+	margin-left:617px;
+	margin-top:5px;
+	}
+
+table td{
+	border-radius:5px;
+}
